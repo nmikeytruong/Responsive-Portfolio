@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Portfolio | Nam Truong</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
 </head>
 
 <body class="bg-secondary">
@@ -14,9 +14,15 @@
             <div class="bg-info navbar-dark">
                 <a class="navbar-brand" href="contact.html">Nam Truong</a>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+            
+            <button class="btn dropdown-toggle navbar-toggler" id="dropdownMenuButton" type="button" data-toggle="collapse dropdown" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto text">
                     <li class="nav-item">
@@ -32,6 +38,8 @@
                 </ul>
             </div>
         </nav>
+
+        
 
         <br>
 
@@ -94,6 +102,16 @@
     </div>
     <br>
     <div class="row">
+            <div class="col-sm-6">
+                    <div class="card bg-dark text-white text-center">
+                        <img class="card-img" src="assets/images/project2InstaGame.png" alt="Project 2 Instagame">
+                        <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                            <div class="bg-info">
+                            <h3><a class="site-link" href="https://sheltered-badlands-92972.herokuapp.com/">Project 2 InstaGame</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <div class="col-sm-6">
             <div class="card bg-dark text-white text-center">
                 <img class="card-img" src="assets/images/resume.png" alt="Resume">
